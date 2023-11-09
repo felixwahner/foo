@@ -1,0 +1,22 @@
+<h2>Diese Unternehmen sind auf der Jobmesse zu finden: </h2>
+<div class="grid-container">
+@for (exhibitor of exhibitors; track exhibitor.id) {
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>{{exhibitor.name}}</mat-card-title>
+    <mat-card-subtitle>{{ exhibitor.jobTypes.join(',') }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="exhibitor.logoUrl" [alt]="'Logo von ' + exhibitor.name">
+  <mat-card-content>
+    <p>
+     {{ exhibitor.text }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-icon-button color="warn" aria-label="Example icon button with a heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+  </mat-card-actions>
+</mat-card>
+}
+</div>

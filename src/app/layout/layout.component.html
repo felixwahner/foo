@@ -1,0 +1,17 @@
+<div class="layout-container" [class.is-mobile]="mobileQuery.matches">
+    <mat-toolbar color="primary" class="toolbar">
+        
+        <h1>Jobmesse</h1>
+        <div class="spacer"></div>
+        <mat-button-toggle-group #group="matButtonToggleGroup">
+        <mat-button-toggle value="left" aria-label="Listenansicht">
+          <mat-icon>list</mat-icon>
+        </mat-button-toggle>
+        <mat-button-toggle value="center" aria-label="Kartenansicht">
+          <mat-icon>pin_drop</mat-icon>
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+    
+    </mat-toolbar>
+    <ng-content></ng-content>
+</div>

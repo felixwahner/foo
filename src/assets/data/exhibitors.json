@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "name": "Üstra",
+    "coordinates": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "jobTypes": ["Kaufmann", "Stadbahnfahrer", "Programmierer"],
+    "isFavorite": false,
+    "text": "Die Üstra betreibt die Stadtbahn Hannover sowie das Stadtbus­liniennetz in Hannover und umliegenden Städten und Gemeinden.",
+    "logoUrl": "/assets/images/logos/Üstra_Hannoversche_Verkehrsbetriebe_2017_logo.svg"
+  },
+  {
+    "id": "2",
+    "name": "Wertgarantie",
+    "coordinates": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "jobTypes": ["Kaufmann", "Programmierer"],
+    "isFavorite": false,
+    "text": "Die Wertgarantie SE ist ein Spezialversicherer mit Hauptsitz in Hannover und ein Unternehmen der Wertgarantie Group.",
+    "logoUrl": "/assets/images/logos/WERTGARANTIE_Logo.jpg"
+  }
+]
